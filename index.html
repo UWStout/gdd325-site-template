@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="gddInfoPage">
+<head>
+  <title data-ng-controller="basicInfo">{{fullHeader}}</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- jQuery, Angular, and Bootstrap JS libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Page customizable data -->
+  <script src="semesterData.js"></script>
+
+  <style>
+    /* Get rid of underlining of links when hovering */
+    a:hover { text-decoration: none; }
+  </style>
+
+</head>
+<body>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="page-header" data-ng-controller="basicInfo">
+      <h1 id="pageHeader">{{fullHeader}}</h1>
+    </div>
+
+    <div class="row" data-ng-controller="gameInfo">
+
+      <div class="col-md-6 col-xs-12 thumb" data-ng-repeat="game in games">
+        <a class="thumbnail" data-ng-href="{{game.folder + '/index.html'}}">
+          <img src="#" data-ng-src="{{game.folder + '/bannerThumb.gif'}}" alt="{{game.name}}" class="img-responsive" />
+        </a>
+      </div>
+
+    </div><!-- /.row -->
+
+    <hr>
+    <p data-ng-controller="basicInfo">
+      {{studioName}} is the name for the {{semester}} {{year}} section of GDD 325 at the University of Wisconsin Stout. These games were developed by students in their junior year as part of the game design and development program as class projects for this course and exhibited at the Stout Game Expo on {{SGXDate}}.</p>
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="row">
+        <div class="col-lg-12" data-ng-controller="basicInfo">
+          <p>Copyright &copy; University of Wisconsin Stout {{year}}</p>
+        </div>
+      </div>
+    </footer>
+
+  </div><!-- /.container -->
+
+  <script>
+    var app = angular.module("gddInfoPage", []);
+
+    app.controller("basicInfo", function($scope) {
+      $scope.studioName = semesterData.studioName;
+      $scope.semester = semesterData.semester;
+      $scope.year = semesterData.year;
+      $scope.SGXDate = semesterData.SGXDate;
+      $scope.fullHeader = `${semesterData.studioName} | ${semesterData.semester}  ${semesterData.year} Games`;
+    });
+
+    app.controller("gameInfo", function($scope) {
+      $scope.games = semesterData.games;
+    });
+  </script>
+
+</body>
+</html>
