@@ -1,10 +1,13 @@
 // Customizable per-semester data
 var semesterData = {
-  studioName: 'Beige Box Studios',
-  semester: 'Fall', year: '2016',
-  GSXDate: 'December 8th, 2016',
+  studioName: 'Fish People',
+  semester: 'Spring', year: '2017',
+  GSXDate: 'May 4th, 2017',
 
   games: [
-    { name: 'Lambent Abyss', folder: 'game' }
+    { name: 'The Great Tsunami Thief', folder: 'tsunami' },
+    { name: 'Memories of a Lake Home', folder: 'memories' },
+    { name: 'Pesky', folder: 'pesky' },
+    { name: 'White Coal: The Creation of Lake Wissota', folder: 'whitecoal' }
   ]
 }
