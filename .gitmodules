@@ -1,3 +1,15 @@
 [submodule "splash"]
 	path = splash
 	url = git@github.com:Olliebrown/fish-people-splashscreen.git
+[submodule "memories/play"]
+	path = memories/play
+	url = git@bitbucket.org:Olliebrown/memories-of-a-lake-home.git
+[submodule "tsunami/play"]
+	path = tsunami/play
+	url = git@bitbucket.org:Olliebrown/tsunami-thief.git
+[submodule "pesky/play"]
+	path = pesky/play
+	url = git@bitbucket.org:Olliebrown/pesky.git
+[submodule "whitecoal/play"]
+	path = whitecoal/play
+	url = git@bitbucket.org:Olliebrown/herald.git
