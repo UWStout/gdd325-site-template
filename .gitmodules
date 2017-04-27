@@ -13,3 +13,4 @@
 [submodule "whitecoal/play"]
 	path = whitecoal/play
 	url = git@bitbucket.org:Olliebrown/herald.git
+	branch = phaser-node
