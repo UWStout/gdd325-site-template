@@ -1,21 +1,21 @@
 [submodule "splash"]
 	path = splash
 	url = git@github.com:Olliebrown/fish-people-splashscreen.git
-  shallow = true
+	shallow = true
 [submodule "memories/play"]
 	path = memories/play
 	url = git@bitbucket.org:Olliebrown/memories-of-a-lake-home.git
-  shallow = true
+	shallow = true
 [submodule "tsunami/play"]
 	path = tsunami/play
 	url = git@bitbucket.org:Olliebrown/tsunami-thief.git
-  shallow = true
+	shallow = true
 [submodule "pesky/play"]
 	path = pesky/play
 	url = git@bitbucket.org:Olliebrown/pesky.git
-  shallow = true
+	shallow = true
 [submodule "whitecoal/play"]
 	path = whitecoal/play
 	url = git@bitbucket.org:Olliebrown/herald.git
 	branch = phaser-node
-  shallow = true
+	shallow = true
