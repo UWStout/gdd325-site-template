@@ -16,9 +16,12 @@ var gameData = {
   `,
 
   creators: [
-    { name: '[your name]', contrib: '[what you did]' },
-    { name: '[your name]', contrib: '[what you did]' },
-    { name: '[your name]', contrib: '[what you did]' },
-    { name: '[your name]', contrib: '[what you did]' }
+    { name: 'Allan Seckora', contrib: 'Artist/Animator' },
+    { name: 'Susan Evans', contrib: '[what you did]' },
+    { name: 'Alex Hill', contrib: 'Programmer / Meme Overlord' },
+    { name: 'Dan Hying', contrib: '[what you did]' },
+    { name: 'Thomas Rosik', contrib: '[what you did]' },
+    { name: 'Leslie Murphy', contrib: 'Programmer / Miss Bossy Pants' }
+    
   ]
 };
