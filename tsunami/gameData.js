@@ -16,12 +16,12 @@ var gameData = {
   `,
 
   creators: [
-    { name: '[Colton Barto]', contrib: '[Programming]' },
-    { name: '[Nicole Fairchild]', contrib: '[Art]' },
-    { name: '[Maria Kastello]', contrib: '[Art]' },
-    { name: '[Austin Lewer]', contrib: '[Art]' },
-    { name: '[Cole Robinson]', contrib: '[Art]' },
-    { name: '[Shane Yach]', contrib: '[Programming]' }
+    { name: 'Colton Barto', contrib: 'Programmer - Wave Mechanics, Level Collision Setup' },
+    { name: 'Nicole Fairchild', contrib: 'Artist - Animation, Level Art' },
+    { name: 'Maria Kastello', contrib: 'Programmer - Loot Mechanics, Inventory Mechanics' },
+    { name: 'Austin Lewer', contrib: 'Artist - Level Art, Ui Design, Logo Design' },
+    { name: 'Cole Robinson', contrib: 'Artist - Background Art, Loot Design, Animation' },
+    { name: 'Shane Yach', contrib: 'Programmer/Sound Designer - Character Movement, Menu Programming, Sound Effects' }
     
   ]
 };
