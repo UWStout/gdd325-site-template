@@ -5,6 +5,7 @@ var gameData = {
   trailerVimeoID: '193300882',
   codeEvolutionVimeoID: '194924229',
 
+  playSplashscreen: true,
   playDestination: 'play/index.html',
 
   /********* Please do not edit things ABOVE this line *******/
