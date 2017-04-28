@@ -2,7 +2,7 @@ var gameData = {
   name: 'Pesky',
   folder: 'pesky',
 
-  trailerVimeoID: '193300882',
+  trailerVimeoID: '215213778',
   codeEvolutionVimeoID: '194924229',
 
   playSplashscreen: true,
