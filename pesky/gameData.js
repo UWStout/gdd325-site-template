@@ -12,7 +12,10 @@ var gameData = {
   byline: 'Play as three rodents and terrorize the neighborhood, watch out for animal control!',
 
   description: `
-  Our gripping description.
+  You play as either a raccoon, skunk, or a goose whose only job is to chaos! Attack the townsfolk, knock over their garbage cans,
+and even go into their houses! As you cause more chaos, the Animal Control gets more powerful and may even call in back up, be careful!
+Get as many points as you can before all of your animals get caught! If you get to the end of the street, just go to the next one! 
+Good luck!
   `,
 
   creators: [
