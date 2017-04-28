@@ -9,16 +9,19 @@ var gameData = {
   playDestination: 'play/index.html',
 
   /********* Please do not edit things ABOVE this line *******/
-  byline: 'Our Amazing Tagline!!',
+  byline: 'A Tsunami Approaches. Steal as much as you can!',
 
   description: `
-  Our gripping description.
+  The Great Tsunami Thief is an infamous connoisseur of trinkets and treasure facing treacherous tribulations of trials and engulfing tsunami waves.
   `,
 
   creators: [
-    { name: '[your name]', contrib: '[what you did]' },
-    { name: '[your name]', contrib: '[what you did]' },
-    { name: '[your name]', contrib: '[what you did]' },
-    { name: '[your name]', contrib: '[what you did]' }
+    { name: '[Colton Barto]', contrib: '[Programming]' },
+    { name: '[Nicole Fairchild]', contrib: '[Art]' },
+    { name: '[Maria Kastello]', contrib: '[Art]' },
+    { name: '[Austin Lewer]', contrib: '[Art]' },
+    { name: '[Cole Robinson]', contrib: '[Art]' },
+    { name: '[Shane Yach]', contrib: '[Programming]' }
+    
   ]
 };
