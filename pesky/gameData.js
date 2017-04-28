@@ -22,7 +22,7 @@ Good luck!
     { name: 'Allan Seckora', contrib: 'Artist / Animator' },
     { name: 'Susan Evans', contrib: 'Artist / Original Concept Creator' },
     { name: 'Alex Hill', contrib: 'Programmer / Meme Overlord' },
-    { name: 'Dan Hying', contrib: 'Programmer / ' },
+    { name: 'Dan Hying', contrib: 'Programmer / Bug Designer' },
     { name: 'Thomas Rosik', contrib: 'Programmer / ' },
     { name: 'Leslie Murphy', contrib: 'Programmer / Miss Bossy Pants' }
     
