@@ -9,7 +9,7 @@ var gameData = {
   playDestination: 'play/Dev-Build/src/Main.html',
 
   /********* Please do not edit things ABOVE this line *******/
-  byline: 'Dam...',
+  byline: 'Almost everyone was excited about the reservior',
 
   description: `
   They see me rowing, I'm crying, tearing up and seeing my heart breaking
@@ -24,7 +24,7 @@ var gameData = {
   trying to stop my heart breaking
   trying to stop my heart breaking
   trying to stop my heart breaking
-  WIP, WIP, WIP, WIP, WIP, WIP, WIP, WIP... 
+  WIP, WIP, WIP, WIP, WIP, WIP, WIP, WIP...
 
   `,
 
