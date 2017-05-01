@@ -9,19 +9,31 @@ var gameData = {
   playDestination: 'play/Dev-Build/src/Main.html',
 
   /********* Please do not edit things ABOVE this line *******/
-  byline: 'Our Amazing Tagline!!',
+  byline: 'Dam...',
 
   description: `
-  Our gripping description.
+  They see me rowing, I'm crying, tearing up and seeing my heart breaking
+  tearing up and seeing my heart breaking
+  tearing up and seeing my heart breaking
+  tearing up and seeing my heart breaking
+  tearing up and seeing my heart breaking
+  My anger is loud
+  I'm defacing
+  I'm trying to fill a void to stop my heart breaking
+  trying to stop my heart breaking
+  trying to stop my heart breaking
+  trying to stop my heart breaking
+  trying to stop my heart breaking
+  WIP, WIP, WIP, WIP, WIP, WIP, WIP, WIP... 
+
   `,
 
   creators: [
-    { name: 'Casey Holman', contrib: 'Mitochondria' },
-    { name: 'Bob Vogt', contrib: 'Video and Otherjunk Dudebro the IV' },
-    { name: 'Michael Horstketter', contrib: 'Physics Wizard' },
-    { name: 'Logan Skrzypchak', contrib: 'Graphics God' }
-    { name: 'Evan Jay', contrib: 'Painter of the World' }
-    { name: 'Bronson Bero', contrib: 'Animation Master' }
-    { name: 'Jeffrey McCuen', contrib: 'Audio dude' }
-]
-};
+    { name: 'Casey Holman', contrib: 'Lead Designer, and Producer, Programmer' }, //Archmage of Game Alchemy.
+    { name: 'Bob Vogt', contrib: 'Narrative, PR, and Rope Weaver' }, //Pond Full of Rope-Braiding Narrative Guppies. Twitter @humannamedbob
+    { name: 'Michael Horstketter', contrib: 'Lead Physics Programmer' }, //Physics Wizard
+    { name: 'Logan Skrzypchak', contrib: 'Lead Graphics Programmer' } //Graphics Demi-God
+    { name: 'Evan Jay', contrib: 'Landscape Artist' } //Painter of the World
+    { name: 'Bronson Bero', contrib: 'Animation Artist' } //Ancient Animation Dragon
+    { name: 'Jeffrey McCuen', contrib: 'Sound' } //Audio Dude
+]};
