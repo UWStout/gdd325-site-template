@@ -23,7 +23,7 @@ Good luck!
     { name: 'Susan Evans', contrib: 'Artist / Original Concept Creator' },
     { name: 'Alex Hill', contrib: 'Programmer / Meme Overlord' },
     { name: 'Dan Hying', contrib: 'Programmer / Bug Designer' },
-    { name: 'Thomas Rosik', contrib: 'Programmer / ' },
+    { name: 'Thomas Rosik', contrib: 'Programmer / Bug Fixer' },
     { name: 'Leslie Murphy', contrib: 'Programmer / Miss Bossy Pants' }
     
   ]
