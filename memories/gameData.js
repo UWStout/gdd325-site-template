@@ -2,7 +2,7 @@ var gameData = {
   name: 'Memories of a Lake Home',
   folder: 'memories',
 
-  trailerVimeoID: '193300882',
+  trailerVimeoID: '215533535',
   codeEvolutionVimeoID: '194924229',
 
   playSplashscreen: true,
@@ -12,8 +12,12 @@ var gameData = {
   byline: 'Almost everyone was excited about the reservior',
 
 
-  description: `
-  Your childhood home is at the bottom of a reservoir. Solve puzzles to explore the land surrounding the lake, learn about it\'s impact on the community, and come to terms with your loss. Discover the secrets of the reservoir, inspired by historic Lake Wissota.`,
+  description: `Your childhood home is at the bottom of a reservoir.
+  Solve puzzles to explore the land surrounding the lake,
+  learn about it's impact on the community,
+  and come to terms with your loss.
+  Discover the secrets of the reservoir,
+  inspired by historic Lake Wissota.`,
   // description:
   // They see me rowing, I'm crying, tearing up and seeing my heart breaking
   // tearing up and seeing my heart breaking
