@@ -13,7 +13,7 @@ var gameData = {
 
 
   description: `
-  Your childhood home is at the bottom of a reservoir. Solve puzzles to explore the land surrounding the lake, learn about it\'s impact on the community, and come to terms with your loss. Discover the secrets of the reservoir, inspired by historic Lake Wissota.`
+  Your childhood home is at the bottom of a reservoir. Solve puzzles to explore the land surrounding the lake, learn about it\'s impact on the community, and come to terms with your loss. Discover the secrets of the reservoir, inspired by historic Lake Wissota.`,
   // description:
   // They see me rowing, I'm crying, tearing up and seeing my heart breaking
   // tearing up and seeing my heart breaking
