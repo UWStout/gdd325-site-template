@@ -32,8 +32,8 @@ var gameData = {
     { name: 'Casey Holman', contrib: 'Lead Designer, and Producer, Programmer' }, //Archmage of Game Alchemy.
     { name: 'Bob Vogt', contrib: 'Narrative, PR, and Rope Weaver' }, //Pond Full of Rope-Braiding Narrative Guppies. Twitter @humannamedbob
     { name: 'Michael Horstketter', contrib: 'Lead Physics Programmer' }, //Physics Wizard
-    { name: 'Logan Skrzypchak', contrib: 'Lead Graphics Programmer' } //Graphics Demi-God
-    { name: 'Evan Jay', contrib: 'Landscape Artist' } //Painter of the World
-    { name: 'Bronson Bero', contrib: 'Animation Artist' } //Ancient Animation Dragon
+    { name: 'Logan Skrzypchak', contrib: 'Lead Graphics Programmer' }, //Graphics Demi-God
+    { name: 'Evan Jay', contrib: 'Landscape Artist' }, //Painter of the World
+    { name: 'Bronson Bero', contrib: 'Animation Artist' }, //Ancient Animation Dragon
     { name: 'Jeffrey McCuen', contrib: 'Sound' } //Audio Dude
 ]};
