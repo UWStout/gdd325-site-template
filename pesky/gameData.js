@@ -3,7 +3,7 @@ var gameData = {
   folder: 'pesky',
 
   trailerVimeoID: '215213778',
-  codeEvolutionVimeoID: '194924229',
+  codeEvolutionVimeoID: '0',
 
   playSplashscreen: true,
   playDestination: 'play/ourLibraries/Pesky.html',
@@ -14,7 +14,7 @@ var gameData = {
   description: `
   You play as either a raccoon, skunk, or a goose whose only job is to chaos! Attack the townsfolk, knock over their garbage cans,
 and even go into their houses! As you cause more chaos, the Animal Control gets more powerful and may even call in back up, be careful!
-Get as many points as you can before all of your animals get caught! If you get to the end of the street, just go to the next one! 
+Get as many points as you can before all of your animals get caught! If you get to the end of the street, just go to the next one!
 Good luck!
   `,
 
@@ -25,6 +25,6 @@ Good luck!
     { name: 'Dan Hying', contrib: 'Programmer / Bug Designer' },
     { name: 'Thomas Rosik', contrib: 'Programmer / Bug Fixer' },
     { name: 'Leslie Murphy', contrib: 'Programmer / Miss Bossy Pants' }
-    
+
   ]
 };

@@ -48,8 +48,11 @@
 
       <div class="row">
         <div class="col-lg-12">
-          <div class="embed-responsive embed-responsive-16by9">
+          <div class="embed-responsive embed-responsive-16by9" data-ng-show="{{data.trailerVimeoID > 0}}">
             <iframe data-ng-src="{{getVimeoSource(data.trailerVimeoID)}}" class="embed-responsive-item" allowfullscreen></iframe>
+          </div>
+          <div class="embed-responsive embed-responsive-16by9" data-ng-show="{{data.trailerVimeoID == 0}}">
+            <img src="https://dummyimage.com/1280x720/000/fff.png&text=Video+Coming+Soon" class="embed-responsive-item" alt="Trailer coming soon" />
           </div>
         </div>
       </div>
@@ -97,8 +100,11 @@
       <div class="row">
         <div class="col-lg-12">
           <h3>Watch the Code Evolve</h3>
-          <div class="embed-responsive embed-responsive-16by9">
+          <div class="embed-responsive embed-responsive-16by9" data-ng-show="{{data.codeEvolutionVimeoID > 0}}">
             <iframe data-ng-src="{{getVimeoSource(data.codeEvolutionVimeoID)}}" class="embed-responsive-item" allowfullscreen></iframe>
+          </div>
+          <div class="embed-responsive embed-responsive-16by9" data-ng-show="{{data.codeEvolutionVimeoID == 0}}">
+            <img src="https://dummyimage.com/1280x720/000/fff.png&text=Video+Coming+Soon" class="embed-responsive-item" alt="Code evolution video coming soon" />
           </div>
           <br />
           <p>Generated from the source code repository using <a href="http://gource.io" target="_blank">Gource</a></p>
