@@ -22,6 +22,13 @@ var gameData = {
     { name: 'Austin Lewer', contrib: 'Artist - Level Art & Design, UI Design, Game Logo' },
     { name: 'Cole Robinson', contrib: 'Artist - Environment Design, Sprite Design, Menu Design' },
     { name: 'Shane Yach', contrib: 'Programmer/Sound Designer - Character Movement, Menu Programming, Sound Effects' }
-    
+  ],
+
+  screenshots: [
+    { src: 'screenshot1.jpg', alt: 'Screenshot', caption: '' },
+    { src: 'screenshot2.jpg', alt: 'Screenshot', caption: '' },
+    { src: 'screenshot3.jpg', alt: 'Screenshot', caption: '' },
+    { src: 'screenshot4.jpg', alt: 'Screenshot', caption: '' },
+    { src: 'screenshot5.jpg', alt: 'Screenshot', caption: '' }
   ]
 };

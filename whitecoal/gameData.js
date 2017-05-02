@@ -23,5 +23,13 @@ var gameData = {
     { name: 'Josh Frederick', contrib: 'Artist - Lead Art and Animation'},
     { name: 'Mallory Lee', contrib: 'Artist - Lead Environmental Artist' },
     { name: 'Rahul Shah', contrib: 'Composer and Musician' }
+   ],
+
+   screenshots: [
+     { src: 'screenshot1.jpg', alt: 'Screenshot', caption: '' },
+     { src: 'screenshot2.jpg', alt: 'Screenshot', caption: '' },
+     { src: 'screenshot3.jpg', alt: 'Screenshot', caption: '' },
+     { src: 'screenshot4.jpg', alt: 'Screenshot', caption: '' },
+     { src: 'screenshot5.jpg', alt: 'Screenshot', caption: '' }
    ]
 };

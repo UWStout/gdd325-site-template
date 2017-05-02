@@ -25,6 +25,14 @@ Good luck!
     { name: 'Dan Hying', contrib: 'Programmer / Bug Designer' },
     { name: 'Thomas Rosik', contrib: 'Programmer / Bug Fixer' },
     { name: 'Leslie Murphy', contrib: 'Programmer / Miss Bossy Pants' }
+  ],
 
+  screenshots: [
+    { src: 'screenshot1.jpg', alt: 'Screenshot', caption: '' },
+    { src: 'screenshot2.jpg', alt: 'Screenshot', caption: '' },
+    { src: 'screenshot3.jpg', alt: 'Screenshot', caption: '' },
+    { src: 'screenshot4.jpg', alt: 'Screenshot', caption: '' },
+    { src: 'screenshot5.jpg', alt: 'Screenshot', caption: '' },
+    { src: 'screenshot6.jpg', alt: 'Screenshot', caption: '' }
   ]
 };

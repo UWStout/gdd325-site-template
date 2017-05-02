@@ -18,22 +18,6 @@ var gameData = {
   and come to terms with your loss.
   Discover the secrets of the reservoir,
   inspired by historic Lake Wissota.`,
-  // description:
-  // They see me rowing, I'm crying, tearing up and seeing my heart breaking
-  // tearing up and seeing my heart breaking
-  // tearing up and seeing my heart breaking
-  // tearing up and seeing my heart breaking
-  // tearing up and seeing my heart breaking
-  // My anger is loud
-  // I'm defacing
-  // I'm trying to fill a void to stop my heart breaking
-  // trying to stop my heart breaking
-  // trying to stop my heart breaking
-  // trying to stop my heart breaking
-  // trying to stop my heart breaking
-  // WIP, WIP, WIP, WIP, WIP, WIP, WIP, WIP...
-  //
-  // `,
 
   creators: [
     { name: 'Casey Holman', contrib: 'Lead Designer, and Producer, Programmer' }, //Archmage of Game Alchemy.
@@ -43,4 +27,13 @@ var gameData = {
     { name: 'Evan Jay', contrib: 'Landscape Artist' }, //Painter of the World
     { name: 'Bronson Bero', contrib: 'Animation Artist' }, //Ancient Animation Dragon
     { name: 'Jeffrey McCuen', contrib: 'Sound' } //Audio Dude
-]};
+  ],
+
+  screenshots: [
+    // { src: 'screenshot1.jpg', alt: 'Screenshot', caption: '' },
+    // { src: 'screenshot2.jpg', alt: 'Screenshot', caption: '' },
+    // { src: 'screenshot3.jpg', alt: 'Screenshot', caption: '' },
+    // { src: 'screenshot4.jpg', alt: 'Screenshot', caption: '' },
+    // { src: 'screenshot5.jpg', alt: 'Screenshot', caption: '' }
+  ]
+};
