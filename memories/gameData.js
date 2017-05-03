@@ -30,10 +30,9 @@ var gameData = {
   ],
 
   screenshots: [
-    // { src: 'screenshot1.jpg', alt: 'Screenshot', caption: '' },
-    // { src: 'screenshot2.jpg', alt: 'Screenshot', caption: '' },
-    // { src: 'screenshot3.jpg', alt: 'Screenshot', caption: '' },
-    // { src: 'screenshot4.jpg', alt: 'Screenshot', caption: '' },
-    // { src: 'screenshot5.jpg', alt: 'Screenshot', caption: '' }
+    { src: 'screenshot1.jpg', alt: 'Screenshot', caption: '' },
+    { src: 'screenshot2.jpg', alt: 'Screenshot', caption: '' },
+    { src: 'screenshot3.jpg', alt: 'Screenshot', caption: '' },
+    { src: 'screenshot4.jpg', alt: 'Screenshot', caption: '' }
   ]
 };
