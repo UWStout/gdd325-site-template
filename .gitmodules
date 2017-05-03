@@ -16,6 +16,6 @@
 	shallow = true
 [submodule "whitecoal/play"]
 	path = whitecoal/play
-	url = git@bitbucket.org:Olliebrown/herald.git
+	url = git@bitbucket.org:Olliebrown/whitecoal.git
 	branch = phaser-node
 	shallow = true
