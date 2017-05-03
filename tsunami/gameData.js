@@ -2,7 +2,7 @@ var gameData = {
   name: 'The Great Tsunami Thief',
   folder: 'tsunami',
 
-  trailerVimeoID: '0',
+  trailerVimeoID: '215864600',
   codeEvolutionVimeoID: '0',
 
   playSplashscreen: false,
