@@ -2,7 +2,7 @@ var gameData = {
   name: 'White Coal: The Creation of Lake Wissota',
   folder: 'whitecoal',
 
-  trailerVimeoID: '0',
+  trailerVimeoID: '215939646',
   codeEvolutionVimeoID: '215928235',
 
   playSplashscreen: true,
