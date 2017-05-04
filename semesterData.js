@@ -2,7 +2,7 @@
 var semesterData = {
   studioName: 'Fish People',
   semester: 'Spring', year: '2017',
-  GSXDate: 'May 4th, 2017',
+  SGXDate: 'May 4th, 2017',
 
   games: [
     { name: 'The Great Tsunami Thief', folder: 'tsunami' },
