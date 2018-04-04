@@ -24,6 +24,10 @@ var gameData = {
     { name: 'Shane Yach', contrib: 'Programmer/Sound Designer - Character Movement, Menu Programming, Sound Effects' }
   ],
 
+  otherContributors: [
+    { name: 'Austin Martin', contrib: 'Composer - Background Music' }
+  ],
+
   screenshots: [
     { src: 'screenshot1.jpg', alt: 'Screenshot', caption: '' },
     { src: 'screenshot2.jpg', alt: 'Screenshot', caption: '' },
