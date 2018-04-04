@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en"  data-ng-app="gddGamePage">
+<head>
+  <title data-ng-controller="basicInfo">{{fullHeader}}</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- jQuery, Angular, and Bootstrap JS libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Page customization data -->
+  <script src="../semesterData.js"></script>
+  <script src="gameData.js"></script>
+
+  <style>
+    /* Get rid of underlining of links when hovering */
+    a:hover { text-decoration: none; }
+
+    /* Special styling for an extra large bootstrap button */
+    .btn-xlarge {
+      padding: 18px 28px;
+      font-size: 30px;
+      line-height: normal;
+      -webkit-border-radius: 8px;
+         -moz-border-radius: 8px;
+              border-radius: 8px;
+    }
+
+    a.left.carousel-control, a.right.carousel-control {
+      width: 40px;
+    }
+
+    div.carousel-inner div.item {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  </style>
+
+</head>
+<body>
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="page-header" data-ng-controller="basicInfo">
+      <h1 id="pageHeader">{{fullHeader}}</h1>
+    </div>
+
+    <div data-ng-controller="gameInfo">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-ng-repeat="image in data.screenshots" data-slide-to="{{$index+1}}" ></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="embed-responsive embed-responsive-16by9" data-ng-show="{{data.trailerVimeoID < 999999999}}">
+                  <iframe data-ng-src="{{getVimeoSource(data.trailerVimeoID)}}" class="embed-responsive-item" allowfullscreen></iframe>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9" data-ng-show="{{data.trailerVimeoID == 999999999}}">
+                  <img src="https://dummyimage.com/1280x720/000/fff.png&text=Video+Coming+Soon" class="embed-responsive-item" alt="Trailer coming soon" />
+                </div>
+              </div>
+
+              <div class="item" data-ng-repeat="image in data.screenshots">
+                <img data-ng-src="{{image.src}}" alt="{{image.alt}}">
+                <div class="carousel-caption" data-ng-show="{{image.caption != ''}}">
+                  <p>{{image.caption}}</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-lg-12 text-center" data-ng-show="!data.playSplashscreen">
+          <a data-ng-href="{{'../' + data.folder + '/' + data.playDestination}}" class="btn btn-primary btn-xlarge" target="_blank">Play Game</a>
+        </div>
+        <div class="col-lg-12 text-center" data-ng-show="data.playSplashscreen">
+          <a data-ng-href="../splash/index.html?dest={{'../' + data.folder + '/' + data.playDestination}}" class="btn btn-primary btn-xlarge" target="_blank">Play Game</a>
+        </div>
+      </div>
+
+      <hr />
+
+      <a href="../index.html"><i class="fa fa-step-backward fa-lg"></i>&nbsp;&nbsp; Return to Games</a>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>{{data.byline}}</h3>
+          <p>{{data.description}}</p>
+        </div>
+      </div>
+
+      <div data-ng-show="{{data.creators.length > 0}}">
+        <h3>Creators:</h3>
+
+        <div class="list-group">
+          <a href="#" class="list-group-item" data-ng-repeat="creator in data.creators">
+            {{creator.name}}: {{creator.contrib}}</a>
+        </div>
+      </div>
+
+      <div data-ng-show="{{data.otherContributors.length > 0}}">
+        <h3>Additional Contributions:</h3>
+
+        <div class="list-group">
+          <a href="#" class="list-group-item" data-ng-repeat="other in data.otherContributors">
+            {{other.name}}: {{other.contrib}}</a>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Watch the Code Evolve</h3>
+          <div class="embed-responsive embed-responsive-16by9" data-ng-show="{{data.codeEvolutionVimeoID < 999999999}}">
+            <iframe data-ng-src="{{getVimeoSource(data.codeEvolutionVimeoID)}}" class="embed-responsive-item" allowfullscreen></iframe>
+          </div>
+          <div class="embed-responsive embed-responsive-16by9" data-ng-show="{{data.codeEvolutionVimeoID == 999999999}}">
+            <img src="https://dummyimage.com/1280x720/000/fff.png&text=Video+Coming+Soon" class="embed-responsive-item" alt="Code evolution video coming soon" />
+          </div>
+          <br />
+          <p>Generated from the source code repository using <a href="http://gource.io" target="_blank">Gource</a></p>
+        </div>
+      </div>
+      <hr />
+
+      <a href="../index.html"><i class="fa fa-step-backward fa-lg"></i>&nbsp;&nbsp; Return to Games</a>
+
+      <hr />
+
+    </div> <!-- /gameInfo ng-controller -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="row">
+        <div class="col-lg-12" data-ng-controller="basicInfo">
+          <p>Copyright &copy; University of Wisconsin Stout {{year}}</p>
+        </div>
+      </div>
+    </footer>
+
+  </div> <!-- /.container -->
+
+  <script>
+    var app = angular.module("gddGamePage", []).config(
+      function($sceDelegateProvider) {
+        $sceDelegateProvider.resourceUrlWhitelist([
+          // Allow same origin resource loads.
+          'self',
+          // Allow loading of resources from vimeo.
+          'https://player.vimeo.com/**']);
+        }
+      );
+
+    app.controller("basicInfo", function($scope) {
+      $scope.studioName = semesterData.studioName;
+      $scope.semester = semesterData.semester;
+      $scope.year = semesterData.year;
+      $scope.SGXDate = semesterData.SGXDate;
+      $scope.fullHeader = `${semesterData.studioName} | ${gameData.name}`;
+    });
+
+    app.controller("gameInfo", function($scope) {
+      $scope.data = gameData;
+      $scope.getVimeoSource = function(videoID) {
+        return 'https://player.vimeo.com/video/' + videoID + '?color=ff0179&byline=0&portrait=0';
+      };
+    });
+  </script>
+
+</body>
+</html>
