@@ -30,6 +30,10 @@ Game6Folder="great_game_6"
 Game6Repo="https://github.com/UWStout/gdd325-web-base"
 
 # Setup 'play' folder to track game1's repo
+if [ -d "./game1/play" ]; then
+  rm -rf ./game1/play
+fi
+mkdir ./game1/play
 git submodule add "${Game1Repo}" ./game1/play
 
 # Update game 1 details
@@ -46,6 +50,10 @@ mv game1 "${Game1Folder}"
 exit
 
 # Setup 'play' folder to track game2's repo
+if [ -d "./game2/play" ]; then
+  rm -rf ./game2/play
+fi
+mkdir ./game2/play
 git submodule add "${Game2Repo}" ./game2/play
 
 # Update game 2 details
@@ -60,6 +68,10 @@ rm ./game2/gameData.js-e
 mv game2 "${Game2Folder}"
 
 # Setup 'play' folder to track game3's repo
+if [ -d "./game3/play" ]; then
+  rm -rf ./game3/play
+fi
+mkdir ./game3/play
 git submodule add "${Game3Repo}" ./game3/play
 
 # Update game 3 details
@@ -74,6 +86,10 @@ rm ./game3/gameData.js-e
 mv game3 "${Game3Folder}"
 
 # Setup 'play' folder to track game4's repo
+if [ -d "./game4/play" ]; then
+  rm -rf ./game4/play
+fi
+mkdir ./game4/play
 git submodule add "${Game4Repo}" ./game4/play
 
 # Update game 4 details
@@ -88,6 +104,10 @@ rm ./game4/gameData.js-e
 mv game4 "${Game4Folder}"
 
 # Setup 'play' folder to track game5's repo
+if [ -d "./game5/play" ]; then
+  rm -rf ./game5/play
+fi
+mkdir ./game5/play
 git submodule add "${Game5Repo}" ./game5/play
 
 # Update game 5 details
@@ -102,6 +122,10 @@ rm ./game5/gameData.js-e
 mv game5 "${Game5Folder}"
 
 # Setup 'play' folder to track game6's repo
+if [ -d "./game6/play" ]; then
+  rm -rf ./game6/play
+fi
+mkdir ./game6/play
 git submodule add "${Game6Repo}" ./game6/play
 
 # Update game 6 details
